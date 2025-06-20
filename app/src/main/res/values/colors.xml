@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //google
+    <color name="google_grey">#121212</color>
+
+
+    //Blue Tones
+
+    <color name="light_steel_blue">#B0C4DE</color>
+    <color name="powder_blue">#B0E0E6</color>
+    <color name="cadet_blue">#5F9EA0</color>
+    <color name="midnight_blue">#191970</color>
+    <color name="sky_blue">#87CEEB</color>
+    <color name="deep_sky_blue">#00BFFF</color>
+    <color name="slate_blue">#6A5ACD</color>
+    <color name="alice_blue">#F0F8FF</color>
+    <color name="azure">#F0FFFF</color>
+    <color name="light_blue">#ADD8E6</color>
+    <color name="blue_sky">#87CEEB</color>
+    <color name="navy_blue">#000080</color>
+    <color name="light_sky_blue">#87CEFA</color>
+    <color name="cornflower_blue">#6495ED</color>
+    <color name="dodger_blue">#1E90FF</color>
+    <color name="cadet_grey">#91A3B0</color>
+    <color name="air_force_blue">#5D8AA8</color>
+    <color name="dark_midnight_blue">#003366</color>
+    <color name="medium_slate_blue">#7B68EE</color>
+    <color name="dark_pastel_blue">#779ECB</color>
+    <color name="pewter_blue">#8BA8B7</color>
+    <color name="polished_pine">#5DA493</color>
+    <color name="sky_magenta">#CF71AF</color>
+    <color name="steel_blue">#4682B4</color>
+    <color name="periwinkle">#CCCCFF</color>
+    <color name="baby_blue">#89CFF0</color>
+    <color name="navy">#000080</color>
+    <color name="bondi_blue">#0095B6</color>
+    <color name="egyptian_blue">#1034A6</color>
+    <color name="royal_blue">#4169E1</color>
+    <color name="cerulean">#007BA7</color>
+    <color name="french_blue">#0072BB</color>
+    <color name="oxford_blue">#002147</color>
+    <color name="denim">#1560BD</color>
+
+
+
+    //Green Tones
+
+    <color name="light_sea_green">#20B2AA</color>
+    <color name="mint_cream">#F5FFFA</color>
+    <color name="forest_green">#228B22</color>
+    <color name="pale_turquoise">#AFEEEE</color>
+    <color name="green_yellow">#ADFF2F</color>
+    <color name="light_green">#90EE90</color>
+    <color name="olive_drab">#6B8E23</color>
+    <color name="spring_green">#00FF7F</color>
+    <color name="medium_sea_green">#3CB371</color>
+    <color name="lime_green">#32CD32</color>
+    <color name="medium_aquamarine">#66CDAA</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="teal">#008080</color>
+    <color name="dark_cyan">#008B8B</color>
+    <color name="aquamarine">#7FFFD4</color>
+    <color name="hunter_green">#355E3B</color>
+    <color name="deep_jungle_green">#004B49</color>
+    <color name="kelly_green">#4CBB17</color>
+    <color name="camouflage_green">#78866B</color>
+    <color name="celadon_green">#2F847C</color>
+    <color name="artichoke_green">#8F9779</color>
+    <color name="jungle_green">#29AB87</color>
+    <color name="shamrock_green">#009E60</color>
+    <color name="dark_olive_green">#556B2F</color>
+    <color name="sea_green">#2E8B57</color>
+    <color name="pine_green">#01796F</color>
+    <color name="pale_spring_bud">#ECEBBD</color>
+    <color name="fern_green">#4F7942</color>
+    <color name="honeydew">#F0FFF0</color>
+    <color name="junglegreen">#29AB87</color>
+    <color name="medium_jungle_green">#1C352D</color>
+    <color name="moss_green">#8A9A5B</color>
+
+
+
+
+    //Pink and Red Tones
+
+    <color name="soft_pink">#F5B7B1</color>
+    <color name="misty_rose">#FFE4E1</color>
+    <color name="deep_pink">#FF1493</color>
+    <color name="indian_red">#CD5C5C</color>
+    <color name="dark_salmon">#E9967A</color>
+    <color name="dark_orange">#FF8C00</color>
+    <color name="dark_orchid">#9932CC</color>
+    <color name="tomato">#FF6347</color>
+    <color name="salmon">#FA8072</color>
+    <color name="mauve">#E0B0FF</color>
+    <color name="raspberry">#E30B5D</color>
+    <color name="pastel_pink">#FFD1DC</color>
+    <color name="light_pink">#FFB6C1</color>
+    <color name="cherry_blossom_pink">#FFB7C5</color>
+    <color name="rose_gold">#B76E79</color>
+    <color name="light_rose">#FBD7D7</color>
+    <color name="amaranth">#E52B50</color>
+    <color name="light_thulian_pink">#E68FAC</color>
+    <color name="french_rose">#F64A8A</color>
+    <color name="ultra_pink">#FF6FFF</color>
+    <color name="barbie_pink">#E0218A</color>
+    <color name="light_red">#FF6666</color>
+    <color name="fiery_rose">#FF5470</color>
+    <color name="dark_red">#8B0000</color>
+    <color name="scarlet">#FF2400</color>
+    <color name="burgundy">#800020</color>
+    <color name="imperial_red">#ED2939</color>
+    <color name="falu_red">#801818</color>
+    <color name="candy_apple_red">#FF0800</color>
+
+
+
+    //Yellow and Orange Tones
+
+    <color name="pale_goldenrod">#EEE8AA</color>
+    <color name="goldenrod">#DAA520</color>
+    <color name="orange">#FFA500</color>
+    <color name="light_coral">#F08080</color>
+    <color name="papaya_whip">#FFEFD5</color>
+    <color name="pale_gold">#E6BE8A</color>
+    <color name="gold">#FFD700</color>
+    <color name="sunset">#FA5F55</color>
+    <color name="sunglow">#FFCC33</color>
+    <color name="amber">#FFBF00</color>
+    <color name="peach_orange">#FFCC99</color>
+    <color name="peach">#FFE5B4</color>
+    <color name="burnt_orange">#CC5500</color>
+    <color name="mustard">#FFDB58</color>
+    <color name="royal_yellow">#FADA5E</color>
+    <color name="mikado_yellow">#FFC40C</color>
+    <color name="golden_yellow">#FFDF00</color>
+    <color name="cream">#FFFDD0</color>
+    <color name="banana_yellow">#FFE135</color>
+    <color name="maize">#FBEC5D</color>
+    <color name="mimosa">#F3E5AB</color>
+    <color name="flax">#EEDC82</color>
+    <color name="lemon_chiffon">#FFFACD</color>
+    <color name="light_khaki">#F0E68C</color>
+    <color name="light_salmon">#FFA07A</color>
+
+
+
+    //Purple Tones
+
+    <color name="lavender">#E6E6FA</color>
+    <color name="thistle">#D8BFD8</color>
+    <color name="lavender_blush">#FFF0F5</color>
+    <color name="plum">#DDA0DD</color>
+    <color name="violet">#EE82EE</color>
+    <color name="orchid">#DA70D6</color>
+    <color name="medium_orchid">#BA55D3</color>
+    <color name="purple">#800080</color>
+    <color name="indigo">#4B0082</color>
+    <color name="blue_violet">#8A2BE2</color>
+    <color name="medium_purple">#9370DB</color>
+    <color name="dark_violet">#9400D3</color>
+    <color name="dark_magenta">#8B008B</color>
+    <color name="rebecca_purple">#663399</color>
+    <color name="pale_lavender">#DCD0FF</color>
+    <color name="heliotrope">#DF73FF</color>
+    <color name="mulberry">#C54B8C</color>
+    <color name="lavender_magenta">#EE82EE</color>
+    <color name="vivid_violet">#9F00FF</color>
+    <color name="purple_heart">#69359C</color>
+    <color name="fuchsia_purple">#CC397B</color>
+    <color name="pale_magenta">#F984E5</color>
+    <color name="byzantine">#BD33A4</color>
+    <color name="wisteria">#C9A0DC</color>
+    <color name="vivid_orchid">#CC00FF</color>
+    <color name="amethyst">#9966CC</color>
+    <color name="pale_purple">#FAE6FA</color>
+    <color name="rich_lavender">#A76BCF</color>
+    <color name="dark_purple">#301934</color>
+
+
+
+    //Brown Tones
+
+    <color name="saddle_brown">#8B4513</color>
+    <color name="chocolate">#D2691E</color>
+    <color name="peru">#CD853F</color>
+    <color name="sienna">#A0522D</color>
+    <color name="sandy_brown">#F4A460</color>
+    <color name="burly_wood">#DEB887</color>
+    <color name="tan">#D2B48C</color>
+    <color name="rosy_brown">#BC8F8F</color>
+    <color name="moccasin">#FFE4B5</color>
+    <color name="navajo_white">#FFDEAD</color>
+    <color name="peach_puff">#FFDAB9</color>
+    <color name="linen">#FAF0E6</color>
+    <color name="bisque">#FFE4C4</color>
+    <color name="wheat">#F5DEB3</color>
+    <color name="french_beige">#A67B5B</color>
+    <color name="beaver">#9F8170</color>
+    <color name="tuscan_brown">#6F4E37</color>
+    <color name="earth_yellow">#E1A95F</color>
+    <color name="khaki">#C3B091</color>
+    <color name="copper">#B87333</color>
+    <color name="dark_chestnut">#986960</color>
+    <color name="russet">#80461B</color>
+    <color name="burnt_umber">#8A3324</color>
+    <color name="sepia">#704214</color>
+    <color name="deep_chestnut">#B94E48</color>
+    <color name="tawny">#CD5700</color>
+    <color name="mahogany">#C04000</color>
+    <color name="puce">#CC8899</color>
+    <color name="deep_coffee">#704241</color>
+
+
+
+    //Gray and Neutral Tones
+
+    <color name="slate_gray">#708090</color>
+    <color name="charcoal">#36454F</color>
+    <color name="dark_slate_gray">#2F4F4F</color>
+    <color name="light_slate_gray">#778899</color>
+    <color name="dim_gray">#696969</color>
+    <color name="gainsboro">#DCDCDC</color>
+    <color name="white_smoke">#F5F5F5</color>
+    <color name="ghost_white">#F8F8FF</color>
+    <color name="ivory">#FFFFF0</color>
+    <color name="floral_white">#FFFAF0</color>
+    <color name="snow">#FFFAFA</color>
+    <color name="antique_white">#FAEBD7</color>
+    <color name="beige">#F5F5DC</color>
+    <color name="blanched_almond">#FFEBCD</color>
+    <color name="cornsilk">#FFF8DC</color>
+    <color name="old_lace">#FDF5E6</color>
+    <color name="light_goldenrod_yellow">#FAFAD2</color>
+    <color name="light_yellow">#FFFFE0</color>
+    <color name="light_cyan">#E0FFFF</color>
+    <color name="lavender_gray">#C8C8D4</color>
+
+
+    //Additional Professional Colors
+
+    <color name="rich_black">#004040</color>
+    <color name="pale_silver">#C9C0BB</color>
+    <color name="paynes_gray">#536878</color>
+    <color name="rosewood">#65000B</color>
+    <color name="smoky_black">#100C08</color>
+    <color name="deep_taupe">#7E5E60</color>
+    <color name="dark_byzantium">#5D3954</color>
+    <color name="golden_brown">#996515</color>
+    <color name="feldgrau">#4D5D53</color>
+    <color name="raisin_black">#242124</color>
+    <color name="eerie_black">#1B1B1B</color>
+    <color name="rose_ebony">#674846</color>
+    <color name="french_bistre">#856D4D</color>
+    <color name="battleship_gray">#848482</color>
+    <color name="dark_jungle_green">#1A2421</color>
+    <color name="jet">#343434</color>
+    <color name="outer_space">#414A4C</color>
+    <color name="dark_liver">#534B4F</color>
+    <color name="ebony">#555D50</color>
+    <color name="arsenic">#3B444B</color>
+    <color name="davys_gray">#555555</color>
+    <color name="gunmetal">#2A3439</color>
+
+</resources>

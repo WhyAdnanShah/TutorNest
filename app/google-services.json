@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "231369517465",
+    "firebase_url": "https://tutor-finder-app-84321-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "tutor-finder-app-84321",
+    "storage_bucket": "tutor-finder-app-84321.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231369517465:android:b051bc68ebfa87309a0b08",
+        "android_client_info": {
+          "package_name": "com.example.tutorfinderapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAzw69AZD6PGt1NNpJAa2vMWWAAvTPFDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
