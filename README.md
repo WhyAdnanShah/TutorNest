@@ -33,9 +33,9 @@ TutorNest is an Android application that connects students with qualified privat
 |----------------|----------------------------------|
 | Language       | Java                             |
 | UI             | XML + Material Components        |
-| Architecture   | Modular Activities + Binding     |
+| Architecture   | Activity-based                   |
 | Backend        | Firebase Realtime Database       |
-| Data Storage   | SharedPreferences                |
+| Data Storage   | Firebase                         |
 | Libraries      | Firebase SDK, AndroidX, Material |
 
 ---
