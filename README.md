@@ -42,7 +42,8 @@ TutorNest is an Android application that connects students with qualified privat
 
 ## 📱 Screenshots
 
-> Add relevant screenshots here (login screen, tutor profile, booking flow, etc.)
+![App Screenshot](ScreenShots/first.png)
+
 
 ---
 
