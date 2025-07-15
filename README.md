@@ -51,7 +51,7 @@ TutorNest is an Android application that connects students with qualified privat
 
 <h4>🔹 List of Tutors</h4>
 <p align="center">
-  <img src="ScreenShots/ListOfTutors.jpg" alt="List of Tutors" width="300">
+  <img src="ScreenShots/ListOfTutors.png" alt="List of Tutors" width="300">
 </p>
 
 <h4>🔹 Tutor Activity Screen</h4>
