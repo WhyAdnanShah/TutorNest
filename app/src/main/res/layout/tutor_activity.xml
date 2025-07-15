@@ -14,7 +14,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".TutorSignup"
-        android:background="@color/google_grey"
         tools:ignore="ExtraText">
 
 
@@ -22,7 +21,6 @@
             android:id="@+id/materialCardView3"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:backgroundTint="@color/google_grey"
             android:elevation="10dp"
             app:cardCornerRadius="20dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -39,7 +37,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:text="TutorNest"
-                    android:textColor="@color/wheat"
                     android:textSize="40dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/imageView"
@@ -80,7 +77,6 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:text="Messages"
-            android:textColor="@color/wheat"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/request_recycler_view"
@@ -119,7 +115,6 @@
             android:layout_height="270dp"
             android:visibility="gone"
             android:layout_margin="16dp"
-            android:backgroundTint="@color/google_grey"
             app:cardElevation="20dp"
             app:cardCornerRadius="12dp"
             app:layout_constraintTop_toTopOf="parent"
@@ -153,7 +148,6 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="30dp"
                     android:text="Name: "
-                    android:textColor="@color/white_smoke"
                     android:textSize="18sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/profile_title" />
@@ -163,7 +157,6 @@
                     android:layout_width="71dp"
                     android:layout_height="26dp"
                     android:text="Subject: "
-                    android:textColor="@color/white_smoke"
                     android:textSize="18sp"
                     app:layout_constraintStart_toStartOf="@+id/name_of_tutor"
                     app:layout_constraintTop_toBottomOf="@+id/name_of_tutor" />
@@ -173,7 +166,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Email: "
-                    android:textColor="@color/white_smoke"
                     android:textSize="18sp"
                     app:layout_constraintStart_toStartOf="@+id/subject_of_tutor"
                     app:layout_constraintTop_toBottomOf="@+id/subject_of_tutor" />
@@ -218,7 +210,6 @@
             android:layout_gravity="center"
             android:visibility="gone"
             android:layout_margin="16dp"
-            android:backgroundTint="@color/google_grey"
             app:cardElevation="20dp"
             app:cardCornerRadius="12dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -246,16 +237,14 @@
                     android:layout_height="wrap_content"
                     android:text="Student: "
                     android:textSize="17sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/white_smoke"/>
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:id="@+id/booking_message"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Message: "
-                    android:textSize="17sp"
-                    android:textColor="@color/white_smoke"/>
+                    android:textSize="17sp"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"

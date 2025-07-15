@@ -17,14 +17,12 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/main"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/google_grey">
+        android:layout_height="match_parent">
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cardView7"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:backgroundTint="@color/google_grey"
             app:cardElevation="10dp"
             app:cardCornerRadius="20dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -40,7 +38,6 @@
                     android:layout_height="match_parent"
                     android:text="Tutor Profile"
                     android:textAlignment="center"
-                    android:textColor="@color/wheat"
                     android:textSize="50sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -165,7 +162,6 @@
                 android:id="@+id/btn_send_request"
                 android:layout_width="155dp"
                 android:layout_height="93dp"
-                android:backgroundTint="@color/google_grey"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/cardView8">
 
@@ -175,7 +171,6 @@
                     android:gravity="center"
                     android:text="Send Request"
                     android:textAlignment="center"
-                    android:textColor="@color/white_smoke"
                     android:textSize="20sp" />
 
 
@@ -185,8 +180,7 @@
                 android:id="@+id/contact_btn"
                 android:layout_width="155dp"
                 android:layout_height="93dp"
-                android:layout_marginStart="35dp"
-                android:backgroundTint="@color/google_grey">
+                android:layout_marginStart="35dp">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -194,7 +188,6 @@
                     android:gravity="center"
                     android:text="Contact"
                     android:textAlignment="center"
-                    android:textColor="@color/white_smoke"
                     android:textSize="20sp" />
 
             </com.google.android.material.card.MaterialCardView>
@@ -223,7 +216,6 @@
             android:visibility="gone"
             app:cardCornerRadius="10dp"
             app:cardElevation="8dp"
-            android:backgroundTint="@color/google_grey"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

@@ -16,8 +16,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Student_without_login"
-    android:background="@color/google_grey">
+    tools:context=".Student_without_login">
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/materialCardView3"
@@ -25,7 +24,6 @@
         android:layout_height="70dp"
         app:cardCornerRadius="20dp"
         app:cardElevation="10dp"
-        android:backgroundTint="@color/google_grey"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -39,7 +37,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:text="TutorNest"
-                android:textColor="@color/wheat"
                 android:textSize="40dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageView"

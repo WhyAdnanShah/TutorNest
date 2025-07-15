@@ -12,8 +12,9 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/google_grey">
+        android:layout_height="match_parent">
+<!--        android:background="@color/google_grey"-->
+
 
 
         <ScrollView
@@ -37,7 +38,6 @@
                     android:id="@+id/cardView3"
                     android:layout_width="250dp"
                     android:layout_height="250dp"
-                    android:backgroundTint="@color/google_grey"
                     android:paddingTop="16dp"
                     app:cardCornerRadius="250dp"
                     app:cardElevation="5dp"
@@ -83,7 +83,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:layout_margin="20dp"
-                    android:backgroundTint="@color/google_grey"
                     android:onClickListener="@{tutor::onTutorClick}"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="10dp"
@@ -97,7 +96,6 @@
                         android:gravity="center"
                         android:text="I am Tutor"
                         android:textAlignment="center"
-                        android:textColor="@color/wheat"
                         android:textSize="20sp" />
 
                 </com.google.android.material.card.MaterialCardView>
@@ -117,7 +115,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:layout_margin="20dp"
-                    android:backgroundTint="@color/google_grey"
                     android:onClickListener="@{tutor::onStudClick}"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="10dp"
@@ -131,7 +128,6 @@
                         android:gravity="center"
                         android:text="I am Student"
                         android:textAlignment="center"
-                        android:textColor="@color/wheat"
                         android:textSize="20sp" />
 
 
@@ -143,7 +139,6 @@
                     android:layout_width="160dp"
                     android:layout_height="80dp"
                     android:layout_marginTop="30dp"
-                    android:backgroundTint="@color/google_grey"
                     app:layout_constraintStart_toStartOf="@+id/studBtn"
                     app:layout_constraintTop_toBottomOf="@+id/studBtn">
 
@@ -166,7 +161,6 @@
                             android:layout_height="wrap_content"
                             android:text="24/7 Support"
                             android:textAlignment="center"
-                            android:textColor="@color/white_smoke"
                             android:textSize="15dp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
@@ -190,7 +184,6 @@
                     android:id="@+id/materialCardView23"
                     android:layout_width="160dp"
                     android:layout_height="80dp"
-                    android:backgroundTint="@color/google_grey"
                     app:layout_constraintBottom_toBottomOf="@+id/materialCardView"
                     app:layout_constraintEnd_toEndOf="@+id/studBtn"
                     app:layout_constraintTop_toTopOf="@+id/materialCardView">
@@ -214,7 +207,6 @@
                             android:layout_height="wrap_content"
                             android:text="Top Rated Tutors"
                             android:textAlignment="center"
-                            android:textColor="@color/white_smoke"
                             android:textSize="15dp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
@@ -244,7 +236,6 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="50dp"
                     android:layout_marginEnd="16dp"
-                    android:backgroundTint="@color/google_grey"
                     android:onClick="quote_of_the_day"
                     app:cardCornerRadius="20dp"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -259,7 +250,6 @@
                         android:layout_marginTop="10dp"
                         android:fontFamily="monospace"
                         android:text="Quote of the day:-"
-                        android:textColor="@color/wheat"
                         android:textSize="25dp" />
 
                     <TextView
@@ -271,7 +261,6 @@
                         android:layout_marginBottom="20dp"
                         android:fontFamily="cursive"
                         android:text="`Education is the most powerful weapon which you can use to change the world.`  ~~ By Nelson Mandela"
-                        android:textColor="@color/white_smoke"
                         android:textSize="20dp" />
 
                 </com.google.android.material.card.MaterialCardView>
@@ -282,7 +271,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="25dp"
                     android:text="Inspirational Quotes"
-                    android:textColor="@color/ghost_white"
                     android:textSize="25dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.112"
@@ -328,9 +316,7 @@
                             android:layout_height="match_parent"
                             android:layout_marginStart="16dp"
                             android:layout_marginEnd="16dp"
-                            android:backgroundTint="@color/davys_gray"
-                            app:cardCornerRadius="30dp"
-                            app:cardElevation="20dp">
+                            app:cardCornerRadius="30dp">
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -350,7 +336,6 @@
                             android:layout_width="320dp"
                             android:layout_height="match_parent"
                             android:layout_marginEnd="16dp"
-                            android:backgroundTint="@color/davys_gray"
                             app:cardCornerRadius="30dp">
 
                             <TextView
@@ -371,7 +356,6 @@
                             android:layout_width="320dp"
                             android:layout_height="match_parent"
                             android:layout_marginEnd="16dp"
-                            android:backgroundTint="@color/davys_gray"
                             app:cardCornerRadius="30dp">
 
                             <TextView
@@ -392,7 +376,6 @@
                             android:layout_width="320dp"
                             android:layout_height="match_parent"
                             android:layout_marginEnd="16dp"
-                            android:backgroundTint="@color/davys_gray"
                             app:cardCornerRadius="30dp">
 
                             <TextView
@@ -413,7 +396,6 @@
                             android:layout_width="320dp"
                             android:layout_height="match_parent"
                             android:layout_marginEnd="16dp"
-                            android:backgroundTint="@color/davys_gray"
                             app:cardCornerRadius="30dp">
 
                             <TextView
@@ -442,7 +424,6 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="25dp"
                     android:text="Latest Articles"
-                    android:textColor="@color/ghost_white"
                     android:textSize="25dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.043"
@@ -455,7 +436,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
                     android:layout_marginTop="10dp"
-                    android:backgroundTint="@color/google_grey"
                     app:cardCornerRadius="20dp"
 
                     app:layout_constraintEnd_toEndOf="@+id/cardView5"
@@ -477,7 +457,6 @@
                         android:layout_marginStart="20dp"
                         android:fontFamily="sans-serif-condensed-medium"
                         android:text="The Future of Online Learning"
-                        android:textColor="@color/white_smoke"
                         android:textSize="17dp" />
 
                 </com.google.android.material.card.MaterialCardView>
@@ -487,7 +466,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
                     android:layout_marginTop="10dp"
-                    android:backgroundTint="@color/google_grey"
                     app:cardCornerRadius="20dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="@+id/cardView4"
@@ -509,7 +487,6 @@
                         android:layout_marginStart="35dp"
                         android:fontFamily="sans-serif-condensed-medium"
                         android:text="How to prepare for entrance exams?"
-                        android:textColor="@color/white_smoke"
                         android:textSize="17dp" />
 
 
@@ -520,7 +497,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
                     android:layout_marginTop="16dp"
-                    android:backgroundTint="@color/google_grey"
                     app:cardCornerRadius="20dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -542,7 +518,6 @@
                         android:layout_marginStart="35dp"
                         android:fontFamily="sans-serif-condensed-medium"
                         android:text="10 Study Habits for Academic Excellence"
-                        android:textColor="@color/white_smoke"
                         android:textSize="17dp" />
 
                 </com.google.android.material.card.MaterialCardView>
@@ -578,7 +553,6 @@
             android:layout_marginStart="40dp"
             android:layout_marginEnd="40dp"
             android:layout_marginBottom="30dp"
-            android:backgroundTint="@color/google_grey"
             app:cardCornerRadius="30dp"
             app:cardElevation="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -616,7 +590,6 @@
                         android:gravity="bottom"
                         android:text="Home"
                         android:textAlignment="center"
-                        android:textColor="@color/wheat"
                         android:textSize="15sp" />
 
                 </androidx.cardview.widget.CardView>
@@ -626,7 +599,6 @@
                     android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:layout_marginStart="35dp"
-                    android:backgroundTint="@color/google_grey"
                     app:cardCornerRadius="30dp"
                     app:cardElevation="10dp"
                     android:onClickListener="@{tutor::settingsClicked}">
@@ -645,7 +617,6 @@
                         android:gravity="bottom"
                         android:text="Settings"
                         android:textAlignment="center"
-                        android:textColor="@color/wheat"
                         android:textSize="15sp" />
 
                 </androidx.cardview.widget.CardView>

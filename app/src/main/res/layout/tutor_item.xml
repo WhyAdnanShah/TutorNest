@@ -8,13 +8,11 @@
 
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:background="@color/google_grey">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:backgroundTint="@color/google_grey"
         app:cardCornerRadius="20dp"
         app:cardElevation="10dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,7 +41,6 @@
                 android:layout_marginTop="10dp"
                 android:text="Prof. "
                 android:textAlignment="center"
-                android:textColor="@color/white_smoke"
                 android:textSize="20sp"
                 app:layout_constraintStart_toEndOf="@+id/imageView4"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -54,7 +51,6 @@
                 android:layout_height="wrap_content"
                 android:text="Username"
                 android:textAlignment="center"
-                android:textColor="@color/white_smoke"
                 android:textSize="20sp"
                 app:layout_constraintBaseline_toBaselineOf="@+id/textView6"
                 app:layout_constraintStart_toEndOf="@+id/textView6" />
@@ -65,7 +61,6 @@
                 android:layout_height="wrap_content"
                 android:text="Subject:"
                 android:textAlignment="center"
-                android:textColor="@color/white_smoke"
                 android:textSize="20sp"
                 app:layout_constraintStart_toStartOf="@+id/textView6"
                 app:layout_constraintTop_toBottomOf="@+id/textView6" />
@@ -76,7 +71,6 @@
                 android:layout_height="wrap_content"
                 android:text="Subject"
                 android:textAlignment="center"
-                android:textColor="@color/white_smoke"
                 android:textSize="20sp"
                 app:layout_constraintBaseline_toBaselineOf="@+id/textView11"
                 app:layout_constraintStart_toEndOf="@+id/textView11" />
@@ -87,7 +81,6 @@
                 android:layout_height="wrap_content"
                 android:text="Rate / Hr: "
                 android:textAlignment="center"
-                android:textColor="@color/white_smoke"
                 android:textSize="20sp"
                 app:layout_constraintStart_toStartOf="@+id/textView11"
                 app:layout_constraintTop_toBottomOf="@+id/textView11" />
@@ -97,7 +90,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="rate"
-                android:textColor="@color/white_smoke"
                 android:textSize="20sp"
                 app:layout_constraintBaseline_toBaselineOf="@+id/textView12"
                 app:layout_constraintStart_toEndOf="@+id/textView12" />

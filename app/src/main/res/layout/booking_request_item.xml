@@ -9,7 +9,6 @@
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/dim_gray"
         app:cardElevation="8dp"
         android:layout_margin="5dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,7 +34,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Student Username"
-                    android:textColor="@color/white_smoke"
                     android:textSize="17sp"
                     android:textStyle="bold" />
 
@@ -44,7 +42,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text=""
-                    android:textColor="@color/white_smoke"
                     android:textSize="17sp"
                     android:textStyle="bold"
                     android:gravity="end"
@@ -58,7 +55,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Standard"
-                android:textColor="@color/white_smoke"
                 android:textSize="16sp" />
 
             <TextView
@@ -66,7 +62,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Booking message"
-                android:textColor="@color/white_smoke"
                 android:textSize="15sp" />
 
         </LinearLayout>

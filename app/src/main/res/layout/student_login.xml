@@ -12,14 +12,12 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/student_login"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/google_grey">
+        android:layout_height="match_parent">
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cardView"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            app:cardBackgroundColor="@color/google_grey"
             app:cardCornerRadius="20dp"
             app:cardElevation="10dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -32,7 +30,6 @@
                 android:layout_gravity="center"
                 android:text="Login"
                 android:textAlignment="center"
-                android:textColor="@color/white_smoke"
                 android:textSize="30sp"
                 android:gravity="center"/>
 
@@ -134,7 +131,6 @@
             android:clickable="true"
             android:focusable="true"
             android:text="Or sign up?"
-            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
             android:textSize="20dp"
             app:layout_constraintEnd_toEndOf="@+id/loginBtnStudent"
             app:layout_constraintHorizontal_bias="0.495"

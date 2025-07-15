@@ -20,8 +20,7 @@
         android:layout_height="match_parent"
         tools:context=".TutorSignup"
         android:fillViewport="true"
-        android:scrollbars="none"
-        android:background="@color/google_grey">
+        android:scrollbars="none">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -31,7 +30,6 @@
                 android:id="@+id/cardView2"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:backgroundTint="@color/google_grey"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -44,7 +42,6 @@
                     android:layout_gravity="center"
                     android:text="SignUp"
                     android:textAlignment="center"
-                    android:textColor="@color/white_smoke"
                     android:textSize="30dp" />
 
             </com.google.android.material.card.MaterialCardView>
